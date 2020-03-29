@@ -42,10 +42,6 @@
         <property name="endingDelimiter" value="`"/>
         <!--        自定义注释-->
         <commentGenerator type="top.flytop.mybatisgenerator.MyCommentGenerator">
-            <!--            &lt;!&ndash; 是否去除自动生成的注释 true：是 ： false:否 &ndash;&gt;-->
-            <!--            <property name="suppressAllComments" value="true"/>-->
-            <!--            &lt;!&ndash;生成的注释包含时间戳&ndash;&gt;-->
-            <!--            <property name="suppressDate" value="true"/>-->
             <property name="author" value="yz"/>
             <property name="dateFormat" value="yyyy/MM/dd"/>
         </commentGenerator>
@@ -115,7 +111,7 @@
                 3，XMLMAPPER：会生成Mapper接口，接口完全依赖XML；
             注意，如果context是MyBatis3Simple：只支持ANNOTATEDMAPPER和XMLMAPPER
         -->
-        <!--        <javaClientGenerator targetPackage="com._520it.mybatis.mapper" type="ANNOTATEDMAPPER"-->
+        <!--        <javaClientGenerator targetPackage="dao" type="ANNOTATEDMAPPER"-->
         <!--                             targetProject="src/main/java">-->
         <!--            &lt;!&ndash; 在targetPackage的基础上，根据数据库的schema再生成一层package，最终生成的类放在这个package下，默认为false &ndash;&gt;-->
         <!--            <property name="enableSubPackages" value="true"/>-->
