@@ -20,4 +20,7 @@ The example of learn MBG
             <property name="dateFormat" value="yyyy/MM/dd"/>
         </commentGenerator>
 ```
+
 ## 直接运行Genrateor主类即可生成代码
+## 生成示例
+![image](https://github.com/CNAHYZ/mybatis-generator-example/blob/master/Snipaste_2020-03-30_19-52-35.png)
